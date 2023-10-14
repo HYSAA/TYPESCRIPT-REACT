@@ -1,15 +1,19 @@
-
-
-import './App.css'
-
 function App() {
-//aaa
+  interface Car {
+    brand: string;
+    name: string;
+  }
+
+  const myCar: Car = {
+    brand: "Toyota",
+    name: "Wow"
+  };
+
+  console.log(myCar);
 
   return (
     <>
-     
+      {/* Your JSX content */}
     </>
-  )
+  );
 }
-
-export default App
