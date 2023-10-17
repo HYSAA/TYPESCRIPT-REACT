@@ -2,8 +2,11 @@ import './App.css';
 import Card from './Card';
 import Navbar from './Navbar';
 
+
 import Katie from './assets/girl.png';
-import Star from './assets/star.png';
+// import Star from './assets/star.png';
+
+
 
 interface CardProps {
   img: string;
@@ -29,6 +32,7 @@ Challenge: Pass props to the Card component and display that data
 
   return (
     <>
+
       <Navbar />
       <Card
         img={Katie}
