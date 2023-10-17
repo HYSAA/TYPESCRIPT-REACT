@@ -14,6 +14,7 @@ export default function Card(props: CardProps): React.ReactElement {
   return (
     <>
       <div className="pics">
+        <div></div>
         <img src={props.img} alt="img" />
         <div className="info">
           <img src={Star} alt="star" className="stars" />
