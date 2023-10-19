@@ -1,8 +1,6 @@
 import './App.css';
 import Card from './Card';
 import Navbar from './Navbar';
-
-
 import Katie from './assets/girl.png';
 // import Star from './assets/star.png';
 

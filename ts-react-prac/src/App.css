@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    padding: 30px 50px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(1, 0, 0, 0.1);
+    }
+    .navbar > img{
+      width: 100px;
+    }
+    .menu{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    .menu > img{
+      width: 80vh;
+      height: auto;
+      padding: 10px;
+    }
+    .text{
+    padding-left: 400px;
+    letter-spacing: 3px;
+    text-align: left;
+    justify-content: center;
+    }
+    .pics > img{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      padding-left: 20%; 
+      height: 10;
+    }
+    .info{
+      margin-bottom: 20px;
+      display: flex;
+      padding-left: 20%; 
+      border: 10px;
+    }
+    .info > img{
+     padding: 5px;
+    }
+    .other{
+      padding-top: -20px;
+      margin-bottom: 10px;
+      display: flex;
+      padding-left: 20%; 
+      border: 10px;
+    }
+    .pics--stars{
+    height: 10px;
+    }
+    .others{
+      
+      margin-bottom: 10px;
+      display: flex;
+      padding-left: 20%; 
+      border: 10px;
+    }
