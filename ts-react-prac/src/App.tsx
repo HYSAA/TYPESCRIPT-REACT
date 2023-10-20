@@ -47,6 +47,7 @@ Challenge: Pass props to the Card component and display that data
         country="Japan"
         title="Life Lessons with Katie Zaferes"
         price="From $136 / person"
+        //aaaa
       />
     </>
   );
