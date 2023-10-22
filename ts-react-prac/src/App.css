@@ -34,9 +34,11 @@
       display: flex;
       padding-left: 20%; 
       border: 10px;
+      word-spacing: 100px;
     }
     .info > img{
      padding: 5px;
+
     }
     .other{
       padding-top: -20px;
@@ -49,9 +51,15 @@
     height: 10px;
     }
     .others{
-      
       margin-bottom: 10px;
       display: flex;
       padding-left: 20%; 
       border: 10px;
+    }
+
+    .BO{
+
+      display: block;
+      justify-content: center;
+      text-align: center;
     }

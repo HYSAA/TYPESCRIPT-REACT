@@ -12,9 +12,8 @@ interface CardProps {
 
 export default function Card(props: CardProps): React.ReactElement {
   return (
-    <>
+    <div className="BO">
       <div className="pics">
-        <div></div>
         <img src={props.img} alt="img" />
         <div className="info">
           <img src={Star} alt="star" className="stars" />
@@ -29,6 +28,6 @@ export default function Card(props: CardProps): React.ReactElement {
           <p>{props.price}</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
