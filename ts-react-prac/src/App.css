@@ -34,12 +34,15 @@
       display: flex;
       padding-left: 20%; 
       border: 10px;
-      word-spacing: 100px;
+      word-spacing: 10%;
     }
-    .info > img{
+    .info >img{
      padding: 5px;
-
     }
+    /* .stars{
+      padding: 10px;
+    } */
+
     .other{
       padding-top: -20px;
       margin-bottom: 10px;

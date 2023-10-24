@@ -17,9 +17,11 @@ export default function Card(props: CardProps): React.ReactElement {
         <img src={props.img} alt="img" />
         <div className="info">
           <img src={Star} alt="star" className="stars" />
+       
           <span>{props.rating}</span>
           <span>{props.reviewCount}</span>
           <span>{props.country}</span>
+     
         </div>
         <div className="other">
           <p>{props.title}</p>

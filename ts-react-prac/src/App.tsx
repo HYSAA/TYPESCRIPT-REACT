@@ -7,7 +7,6 @@ import Gp01 from './assets/4.jpg'
 // import Star from './assets/star.png';
 
 
-
 interface CardProps {
   img: string;
   rating: number;
