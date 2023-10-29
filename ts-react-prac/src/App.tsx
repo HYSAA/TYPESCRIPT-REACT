@@ -29,6 +29,7 @@ Challenge: Pass props to the Card component and display that data
 
 */
 //will be back
+//di sa ron hehe
 
   return (
     <>
