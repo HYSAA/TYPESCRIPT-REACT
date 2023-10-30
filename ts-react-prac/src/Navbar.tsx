@@ -3,11 +3,11 @@ import airbnb from './assets/airbnb-logo.png'
 import photo from './assets/photo-grid.png'
 
 export default function Navbar(){
-
+  //oct 30
   //trying array maps
     return (
       <>
-
+   
       <nav className='navbar'>
     <img src={airbnb} alt="airbnb" />
     </nav>
