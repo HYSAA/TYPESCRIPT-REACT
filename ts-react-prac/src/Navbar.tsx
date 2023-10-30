@@ -5,6 +5,7 @@ import photo from './assets/photo-grid.png'
 export default function Navbar(){
   //oct 30
   //trying array maps
+  //second maps 
     return (
       <>
    
