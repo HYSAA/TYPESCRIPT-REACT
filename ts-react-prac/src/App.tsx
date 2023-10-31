@@ -7,14 +7,37 @@ import Gp01 from './assets/4.jpg'
 // import Star from './assets/star.png';
 
 
-interface CardProps {
-  img: string;
-  rating: number;
-  reviewCount: number;
-  country: string;
-  title: string;
-  price: string;
+// interface CardProps {
+//   img: string;
+//   rating: number;
+//   reviewCount: number;
+//   country: string;
+//   title: string;
+//   price: string;
+// }
+/*
+Challenge 2:
+Given an array of strings, return an array where 
+the first letter of each string is capitalized
+*/
+interface names{
+
+ names: string;
+
+
 }
+
+
+const names = ["alice", "bob", "charlie", "danielle"]
+// -->        ["Alice", "Bob", "Charlie", "Danielle"]
+// Your code here
+const capitalized = names.map((name) => {
+     return name.charAt(0).toUpperCase()+ name.slice(1);
+})
+
+console.log(capitalized)
+
+
 
 function App(): React.ReactElement {
 
