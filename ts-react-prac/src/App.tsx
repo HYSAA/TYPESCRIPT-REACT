@@ -27,6 +27,8 @@ interface names{
 
 }
 
+//owari
+
 
 const names = ["alice", "bob", "charlie", "danielle"]
 // -->        ["Alice", "Bob", "Charlie", "Danielle"]
