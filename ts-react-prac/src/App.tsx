@@ -20,9 +20,9 @@ Challenge 2:
 Given an array of strings, return an array where 
 the first letter of each string is capitalized
 */
-interface names{
+interface names {
 
- names: string;
+  names: string;
 
 
 }
@@ -31,10 +31,9 @@ interface names{
 
 
 const names = ["alice", "bob", "charlie", "danielle"]
-// -->        ["Alice", "Bob", "Charlie", "Danielle"]
-// Your code here
+
 const capitalized = names.map((name) => {
-     return name.charAt(0).toUpperCase()+ name.slice(1);
+  return name.charAt(0).toUpperCase() + name.slice(1);
 })
 
 console.log(capitalized)
