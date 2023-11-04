@@ -28,7 +28,9 @@ interface names {
 }
 const names = ["alice", "bob", "charlie", "danielle"]
 const cap = names.map((n) =>{
-
+  
+  
+  
   return n.charAt(0).toUpperCase() +n.slice(1);
   })
   console.log(cap);
