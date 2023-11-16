@@ -61,23 +61,7 @@ function App(): React.ReactElement {
         title="Life Lessons with Katie Zaferes"
         price="From $136 / person"
       />
-      {/* <Card
-        img={Robot}
-        rating={9.0}
-        reviewCount={10}
-        country="Japan"
-        title="Gundam"
-        price="From $244 / person"
-        //aaaa
-      />
-      <Card 
-      img={Gp01}
-      rating={8.9}
-      reviewCount={10}
-      country="Japan"
-      title="WOW"
-      price="From $100 / person"
-      /> */}
+      {}
     </>
   );
 }
