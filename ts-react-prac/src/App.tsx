@@ -6,7 +6,7 @@ import Robot from './assets/2.jpg'
 import Gp01 from './assets/4.jpg'
 // import Star from './assets/star.png';
 
-
+//asdasdas
 // interface CardProps {
 //   img: string;
 //   rating: number;
